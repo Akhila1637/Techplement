@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+.App{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.quote{
+  background: url(./assets/bg1quote.jpg);
+  background-size: cover;
+  width: 450px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:10px;
+}
+.quote h2{
+  font-size: 1.5em;
+  font-family: "Lobster",cursive;
+}
+.quote small{
+  font-size: 1em;
+  font-family: "Dancing Script", cursive;
+} 
+.btn{
+	display: block;
+	border: 2px solid #008CBA;
+	background: transparent;
+	padding: 10px 15px;
+	color: #008CBA;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #008CBA;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.quote {
+  background: url(./assets/bg1quote.jpg);
+  background-size: cover;
+  width: 90%;
+  max-width: 450px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.quote h2 {
+  font-size: 1.5em;
+  font-family: "Lobster", cursive;
+}
+
+.quote small {
+  font-size: 1em;
+  font-family: "Dancing Script", cursive;
+}
+
+.btn {
+  display: block;
+  border: 2px solid #008CBA;
+  background: transparent;
+  padding: 10px 15px;
+  color: #008CBA;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+  margin-top: 10px; /* Add space between buttons */
+}
+
+.btn:hover {
+  background: #4f858f;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-bar {
+  width: 90%;
+  max-width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .quote {
+    width: 80%;
+  }
+
+  .search-bar {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
